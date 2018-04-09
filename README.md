@@ -3,7 +3,7 @@ Fix SEO Fred 2018
 =================
 Tipos de URLs
 
-1- Generadas desde Xalok (aplicacion)
+1- Generadas desde Xalok (aplicacion) \n
 2- Migracion que responden 200  (aplicacion)
 3- Migracion que responde >= 400 (Redirector)
 4- Archivo que responde 200 (aplicacion)
