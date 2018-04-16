@@ -1,10 +1,16 @@
 
 
-def check_NS
+def check_NS()
 
-def check_xalok
+def check_xalok()
 
-def check_oldfred
+def check_oldfred()
+
+def check_elastic()
+
+
+def url_clasifier(url):
+
 
 def read_file_urls(path_file):
         f = open(path_file,"r")
@@ -16,5 +22,7 @@ def read_file_urls(path_file):
 
 def write_report
 
+if __name__ == "__main__":
+	list_urls = read_file_urls()
 
 
