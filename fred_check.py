@@ -43,4 +43,3 @@ def write_report
 if __name__ == "__main__":
 	list_urls = read_file_urls()
 
-
