@@ -22,11 +22,12 @@ def url_clasifier(url):
 	c.setopt(c.URL, url)
 	c.setopt(pycurl.WRITEFUNCTION, buffer.write)
 	c.setopt(c.HEADER, 1)
-	c.setopt(c.NOBODY, 1) # header only, no body
+	c.setopt(c.NOBODY, 1)
 	c.setopt(c.HEADERFUNCTION, headers.write)
 	c.perform()
 	c.close()
-	print headers.getvalue().split('\n')[0].split(' ')
+	code_response = headers.getvalue().split('\n')[0].split(' ')[1]
+	return code_response
 
 
 def read_file_urls(path_file):
